@@ -5,7 +5,7 @@ public class OperationExample {
 		
 	int a = 1;
 	a += 1;
-		
+	
 	System.out.println(a);
 		
 		a++;
