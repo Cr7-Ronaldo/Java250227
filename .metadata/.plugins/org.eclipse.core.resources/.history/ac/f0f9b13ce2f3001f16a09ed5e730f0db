@@ -1,0 +1,25 @@
+package cho01.sec08;//패키지명
+
+
+//-->
+public class Hello {
+
+	public class DragonAsciiArt {
+	    public static void main(String[] args) {
+	        System.out.println("                ⣴⣿⣦");
+	        System.out.println("                ⢻⣿⣿⠂");
+	        System.out.println("                ⣴⣿⣿⣀");
+	        System.out.println("              ⣾⣿⣿⣿⣿⣿⣿⣦");
+	        System.out.println("             ⣴⣿⢿⣷⠒⠲⣾⣾⣿⣿⡄");
+	        System.out.println("           ⣴⣿⠟⠁⠀⢿⣿⠁⣿⣿⣿⠻⣿⣄");
+	        System.out.println("         ⣠⡾⠟⠁⠀⠀⠀⢸⣿⣸⣿⣿⣿⣆⠙⢿⣷⡀⠀");
+	        System.out.println("        ⡿⠋⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⠀⠀⠉⠻⣿⡭");
+	        System.out.println("                ⢸⣿⣿⣿⣿⣿");
+	        System.out.println("⠀               ⣾⣿⣿⣿⣿⣿⣿⣆⠀⠀");
+	        System.out.println("⠀              ⣼⣿⣿⣿⡿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀");
+	        System.out.println("‏⠀⠀⠀⠀⠀⠀⠀                          ⢠⣿⣿⠿⠟⠀⠀⠻⣿⣿⡇⠀⠀⠀⠀⠀⠀");
+	        System.out.println("‏⠀⠀⠀⠀⠀⠀                        ⢀⣾⡿⠃⠀⠀⠀⠀⠀⠘⢿⣿⡀⠀⠀⠀⠀⠀");
+	        System.out.println("‏⠀⠀⠀⠀⠀                          ⣰⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣷⡀⠀⠀⠀⠀");
+	        System.out.println("‏⠀⠀⠀⠀                         ⢠⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣧⠀⠀⠀⠀");
+	        System.out.println}
+}

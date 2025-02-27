@@ -1,0 +1,13 @@
+package cho02.sec01;
+
+public class booleanExample {
+
+	public static void main(String[] args) {
+		
+		boolean check = 10>=5;
+		System.out.println(check);
+		
+
+	}
+
+}

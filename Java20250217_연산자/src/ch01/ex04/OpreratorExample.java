@@ -1,0 +1,24 @@
+package ch01.ex04;
+
+public class OpreratorExample {
+
+	public static void main(String[] args) {
+		int a = 10 ;
+		int b = 3;
+		/*
+		 * 정수 연산 정수 >> 정수 ex) 5/2 = 2, 나머지 1은 버림
+		 * 정수 연산 실수 >> 실수 ex) 5/2.0 = 2.5
+		 * 정수 연산 실수 >> 실수 ex) 5.0/2.0= 2.5
+		 * 정수 연산 문자열 >> 문자열 ex) 10+"ab" >>>"10ab"
+		 * 실수 연산 문자열 >> 문자열 ex) 10.2 + "10" >>> "10.210"
+		 * 문자열 연산 문자열 >> 문자열 ex) "ab"+"cb" >>> "abcd"
+		 */
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b); //정수/정수는 정수값 출력, 소수점 이하는 버림
+		System.out.println(a%b); //나머지 연산자, 나머지값을 출력
+
+	}
+
+}

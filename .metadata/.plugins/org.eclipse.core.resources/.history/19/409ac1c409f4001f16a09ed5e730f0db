@@ -1,0 +1,13 @@
+package cho02.sec02;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		String name = "나는 \"자바\"를 \n배웁니다";
+        
+		System.out.println(name);
+        
+		
+	}
+
+}

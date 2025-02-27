@@ -1,0 +1,21 @@
+package cho02.sec01;
+
+public class booleanExample {
+
+	public static void main(String[] args) {
+		
+		boolean check = true;
+		System.out.println(!check);
+		/*
+		 *  > : 크다
+		 *  >= : 크거나 같다
+		 *  < : 작다
+		 *  <= : 작거나 같다
+		 *  == : 같다
+		 *  != : 같지 않다.
+		 *  ! : 부정
+		 */
+
+	}
+
+}
