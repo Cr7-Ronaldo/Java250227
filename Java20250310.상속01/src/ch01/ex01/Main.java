@@ -20,7 +20,7 @@ class A{
 }
 class B extends A{
 	String id;
-	B(){}
+	B(){};
 	B(String name,int age,String id){
 		super(name,age);
 		this.id = id;
@@ -28,7 +28,7 @@ class B extends A{
   }
 final class C extends B{
 	String pw;
-	
+       C(){}
 	   C(String name,int age,String id,String pw){
 		   super(name,age,id);
 		   this.pw=pw;
