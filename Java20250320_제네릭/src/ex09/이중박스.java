@@ -14,9 +14,9 @@ class Box<T>{
 }
 class BoxFactory1{
 	public static <T> Box<Box<T>> makeBox(Box<T> box){
-		Box<Box<T>> outerBox = new Box<>();
-		outerBox.setObj(box);
-		return outerBox;
+		Box<Box<T>> 신현민Box = new Box<>();
+		신현민Box.setObj(box);
+		return 신현민Box;
 	}
 }
 
@@ -27,7 +27,7 @@ public class 이중박스 {
 
 	public static void main(String[] args) {
         Box<String>box=new Box<>();
-        box.setObj("홍길동");
+        box.setObj("신현민");
         Box<Box<String>> doubleBox = BoxFactory1.makeBox(box);
         System.out.println(doubleBox.getObj().getObj());
 	}

@@ -19,7 +19,7 @@ class Box<T extends A>{
 class A{}
 class B extends A{}
 class C extends B{}
-class D {}
+class D {} 
 class Person{}
 class Car{}
 public class 제네릭이해 {	
@@ -29,6 +29,7 @@ public class 제네릭이해 {
 	Box<A> aBox=new Box<>();
 	Box<B> bBox=new Box<>();
 	Box<C> cBox= new Box<>();
+    //Box<Integer> ibox = new Box<>();불가
 	//Box<D> dBox=new Box<>();불가
 	//Box<Car> cBox=new Box<>();불가
 	//Box<Person> pBox=new Box<>();불가

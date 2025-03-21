@@ -17,33 +17,7 @@ class Orange{
 	}
 }
 
-class appleBox{
-	private Apple ap;
 
-	public Apple getAp() {
-		return ap;
-	}
-
-	public void setAp(Apple ap) {
-		this.ap = ap;
-	}
-	
-	
-}
-
-class orangeBox{
-	private Orange op;
-
-	public Orange getOp() {
-		return op;
-	}
-
-	public void setOp(Orange op) {
-		this.op = op;
-	}
-	
-	
-}
 class Box{
 	private Object obj;
 

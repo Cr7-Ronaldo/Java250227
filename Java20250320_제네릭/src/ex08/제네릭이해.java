@@ -34,6 +34,7 @@ public class 제네릭이해 {
       
       Box<Double>dbox=BoxFactory.makeBox(7.58);
       System.out.println(dbox.getObj());
+	
 	}
 
 }
